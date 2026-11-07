@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **12-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
+A **13-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
 
 ## Labs
 
@@ -20,6 +20,7 @@ A **12-day bilingual learning path** from cloud fundamentals to IAM, storage, ne
 | 10 | Container Image Provenance and SBOM Basics | [English](labs/10-container-image-provenance-and-sbom/notes.md) · [Türkçe](labs/10-container-image-provenance-and-sbom/notes.tr.md) | [lab.py](labs/10-container-image-provenance-and-sbom/lab.py) |
 | 11 | Infrastructure as Code Policy Checks | [English](labs/11-infrastructure-as-code-policy-checks/notes.md) · [Türkçe](labs/11-infrastructure-as-code-policy-checks/notes.tr.md) | [lab.py](labs/11-infrastructure-as-code-policy-checks/lab.py) |
 | 12 | Cloud Incident Response: Correlation Capstone | [English](labs/12-cloud-incident-response-capstone/notes.md) · [Türkçe](labs/12-cloud-incident-response-capstone/notes.tr.md) | [lab.py](labs/12-cloud-incident-response-capstone/lab.py) |
+| 13 | Cloud Resource Tagging and Ownership Drift | [English](labs/13-cloud-resource-tagging-and-owner-drift/notes.md) · [Türkçe](labs/13-cloud-resource-tagging-and-owner-drift/notes.tr.md) | [lab.py](labs/13-cloud-resource-tagging-and-owner-drift/lab.py) |
 
 ## How to study
 
@@ -46,7 +47,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (12 days total, same layout)
+    └── ... (13 days total, same layout)
 ```
 
 ## Safety
@@ -55,5 +56,5 @@ All examples are safe local simulations. They do not scan or change real AWS, Az
 
 ## Next steps
 
-After these 12 foundational labs, continue with provider-specific AWS/Azure/GCP sandbox exercises, policy-as-code and advanced incident response.
+After these 13 foundational labs, continue with provider-specific AWS/Azure/GCP sandbox exercises, policy-as-code and advanced incident response.
 
