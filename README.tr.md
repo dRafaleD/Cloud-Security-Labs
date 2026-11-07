@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Cloud Security alanını temelden öğrenmek için hazırlanmış **12 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
+Cloud Security alanını temelden öğrenmek için hazırlanmış **13 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
 
 ## Dersler
 
@@ -20,6 +20,7 @@ Cloud Security alanını temelden öğrenmek için hazırlanmış **12 günlük 
 | 10 | Konteyner İmajı Kökeni ve SBOM Temelleri | [Türkçe](labs/10-container-image-provenance-and-sbom/notes.tr.md) · [English](labs/10-container-image-provenance-and-sbom/notes.md) | [lab.py](labs/10-container-image-provenance-and-sbom/lab.py) |
 | 11 | Infrastructure as Code Yapılandırma Denetimi | [Türkçe](labs/11-infrastructure-as-code-policy-checks/notes.tr.md) · [English](labs/11-infrastructure-as-code-policy-checks/notes.md) | [lab.py](labs/11-infrastructure-as-code-policy-checks/lab.py) |
 | 12 | Bulut Olay Müdahalesi: Korelasyon Bitirme Çalışması | [Türkçe](labs/12-cloud-incident-response-capstone/notes.tr.md) · [English](labs/12-cloud-incident-response-capstone/notes.md) | [lab.py](labs/12-cloud-incident-response-capstone/lab.py) |
+| 13 | Bulut Kaynak Etiketleri ve Sahiplik Değişimi | [Türkçe](labs/13-cloud-resource-tagging-and-owner-drift/notes.tr.md) · [English](labs/13-cloud-resource-tagging-and-owner-drift/notes.md) | [lab.py](labs/13-cloud-resource-tagging-and-owner-drift/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -46,7 +47,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (toplam 12 gün, aynı düzen)
+    └── ... (toplam 13 gün, aynı düzen)
 ```
 
 ## Güvenlik ve etik
@@ -55,5 +56,5 @@ Bu eğitim yalnızca zararsız yerel simülasyonlar içerir. Gerçek AWS, Azure 
 
 ## Devam yolu
 
-Bu 12 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
+Bu 13 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
 
