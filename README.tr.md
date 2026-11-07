@@ -25,7 +25,7 @@ Cloud Security alanını temelden öğrenmek için hazırlanmış **12 günlük 
 
 1. Günün Türkçe notunu oku; İngilizce notla temel terimleri karşılaştır.
 2. `lab.py` dosyasındaki kararları çalıştırmadan önce tahmin et.
-3. `python lab.py` komutuyla dene; `assert` çıktısını kontrol et.
+3. `python lab.py` komutuyla dene; `assert` çıktısını kontrol et. Tüm labları kontrol etmek için repo kökünde `python test_all.py` çalıştır.
 4. Negatif örnek ekle, sonuçları ve sınırlamaları kaydet.
 5. Öğrendiklerini gerçek sağlayıcı belgeleriyle çapraz doğrula.
 
