@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Cloud Security alanını temelden öğrenmek için hazırlanmış **14 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
+Cloud Security alanını temelden öğrenmek için hazırlanmış **15 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
 
 ## Dersler
 
@@ -22,6 +22,7 @@ Cloud Security alanını temelden öğrenmek için hazırlanmış **14 günlük 
 | 12 | Bulut Olay Müdahalesi: Korelasyon Bitirme Çalışması | [Türkçe](labs/12-cloud-incident-response-capstone/notes.tr.md) · [English](labs/12-cloud-incident-response-capstone/notes.md) | [lab.py](labs/12-cloud-incident-response-capstone/lab.py) |
 | 13 | Bulut Kaynak Etiketleri ve Sahiplik Değişimi | [Türkçe](labs/13-cloud-resource-tagging-and-owner-drift/notes.tr.md) · [English](labs/13-cloud-resource-tagging-and-owner-drift/notes.md) | [lab.py](labs/13-cloud-resource-tagging-and-owner-drift/lab.py) |
 | 14 | Hesaplar Arası Rol Güveni ve İzin Kapsamı | [Türkçe](labs/14-cross-account-role-trust-and-permission-scope/notes.tr.md) · [English](labs/14-cross-account-role-trust-and-permission-scope/notes.md) | [lab.py](labs/14-cross-account-role-trust-and-permission-scope/lab.py) |
+| 15 | Confused Deputy, External ID ve Tenant İzolasyonu | [Türkçe](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.tr.md) · [English](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.md) | [lab.py](labs/15-confused-deputy-external-id-and-tenant-isolation/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -48,7 +49,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (toplam 14 gün, aynı düzen)
+    └── ... (toplam 15 gün, aynı düzen)
 ```
 
 ## Güvenlik ve etik
@@ -57,5 +58,10 @@ Bu eğitim yalnızca zararsız yerel simülasyonlar içerir. Gerçek AWS, Azure 
 
 ## Devam yolu
 
-Bu 14 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
+Bu 15 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
 
+
+## En yeni lab
+
+- **Gün 15 — Confused Deputy, External ID ve Tenant İzolasyonu**
+- [Türkçe notlar](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.tr.md) · [English notes](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.md) · [Python uygulaması](labs/15-confused-deputy-external-id-and-tenant-isolation/lab.py)
