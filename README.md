@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **15-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
+A **16-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
 
 ## Labs
 
@@ -23,12 +23,13 @@ A **15-day bilingual learning path** from cloud fundamentals to IAM, storage, ne
 | 13 | Cloud Resource Tagging and Ownership Drift | [English](labs/13-cloud-resource-tagging-and-owner-drift/notes.md) · [Türkçe](labs/13-cloud-resource-tagging-and-owner-drift/notes.tr.md) | [lab.py](labs/13-cloud-resource-tagging-and-owner-drift/lab.py) |
 | 14 | Cross-Account Role Trust and Permission Scope | [English](labs/14-cross-account-role-trust-and-permission-scope/notes.md) · [Türkçe](labs/14-cross-account-role-trust-and-permission-scope/notes.tr.md) | [lab.py](labs/14-cross-account-role-trust-and-permission-scope/lab.py) |
 | 15 | Confused Deputy, External ID and Tenant Isolation | [English](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.md) · [Türkçe](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.tr.md) | [lab.py](labs/15-confused-deputy-external-id-and-tenant-isolation/lab.py) |
+| 16 | Temporary Sessions, Expiry and Scoped Actions | [English](labs/16-temporary-sessions-expiry-and-scoped-actions/notes.md) · [Türkçe](labs/16-temporary-sessions-expiry-and-scoped-actions/notes.tr.md) | [lab.py](labs/16-temporary-sessions-expiry-and-scoped-actions/lab.py) |
 
 ## How to study
 
 1. Read one day's notes, then compare the terminology in the other language.
 2. Predict the script's behavior before execution.
-3. Run `python lab.py` and inspect assertions. To check all 15 labs from the repository root, run `python test_all.py`.
+3. Run `python lab.py` and inspect assertions. To check all 16 labs from the repository root, run `python test_all.py`.
 4. Add a negative case and document limitations.
 5. Compare assumptions with official provider documentation.
 
@@ -49,7 +50,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (15 days total, same layout)
+    └── ... (16 days total, same layout)
 ```
 
 ## Safety
@@ -63,5 +64,5 @@ After these 15 foundational labs, continue with provider-specific AWS/Azure/GCP 
 
 ## Latest lab
 
-- **Day 15 — Confused Deputy, External ID and Tenant Isolation**
-- [English notes](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.md) · [Türkçe notlar](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.tr.md) · [Offline Python practice](labs/15-confused-deputy-external-id-and-tenant-isolation/lab.py)
+- **Day 16 — Temporary Sessions, Expiry and Scoped Cloud Actions**
+- [English notes](labs/16-temporary-sessions-expiry-and-scoped-actions/notes.md) · [Türkçe notlar](labs/16-temporary-sessions-expiry-and-scoped-actions/notes.tr.md) · [Offline Python practice](labs/16-temporary-sessions-expiry-and-scoped-actions/lab.py)
