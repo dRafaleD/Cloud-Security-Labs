@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **17-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
+A **18-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
 
 ## Labs
 
@@ -25,12 +25,13 @@ A **17-day bilingual learning path** from cloud fundamentals to IAM, storage, ne
 | 15 | Confused Deputy, External ID and Tenant Isolation | [English](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.md) · [Türkçe](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.tr.md) | [lab.py](labs/15-confused-deputy-external-id-and-tenant-isolation/lab.py) |
 | 16 | Temporary Sessions, Expiry and Scoped Actions | [English](labs/16-temporary-sessions-expiry-and-scoped-actions/notes.md) · [Türkçe](labs/16-temporary-sessions-expiry-and-scoped-actions/notes.tr.md) | [lab.py](labs/16-temporary-sessions-expiry-and-scoped-actions/lab.py) |
 | 17 | Session Revocation and Policy Versioning | [English](labs/17-session-revocation-and-policy-versioning/notes.md) · [Türkçe](labs/17-session-revocation-and-policy-versioning/notes.tr.md) | [lab.py](labs/17-session-revocation-and-policy-versioning/lab.py) |
+| 18 | Session Audit Sequences and Missing-Event Evidence | [English](labs/18-session-audit-sequences-and-missing-event-evidence/notes.md) · [Türkçe](labs/18-session-audit-sequences-and-missing-event-evidence/notes.tr.md) | [lab.py](labs/18-session-audit-sequences-and-missing-event-evidence/lab.py) |
 
 ## How to study
 
 1. Read one day's notes, then compare the terminology in the other language.
 2. Predict the script's behavior before execution.
-3. Run `python lab.py` and inspect assertions. To check all 17 labs from the repository root, run `python test_all.py`.
+3. Run `python lab.py` and inspect assertions. To check all 18 labs from the repository root, run `python test_all.py`.
 4. Add a negative case and document limitations.
 5. Compare assumptions with official provider documentation.
 
@@ -51,7 +52,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (17 days total, same layout)
+    └── ... (18 days total, same layout)
 ```
 
 ## Safety
@@ -65,5 +66,5 @@ After these 15 foundational labs, continue with provider-specific AWS/Azure/GCP 
 
 ## Latest lab
 
-- **Day 17 — Session Revocation and Policy Versioning**
-- [English notes](labs/17-session-revocation-and-policy-versioning/notes.md) · [Türkçe notlar](labs/17-session-revocation-and-policy-versioning/notes.tr.md) · [Practice](labs/17-session-revocation-and-policy-versioning/lab.py)
+- **Day 18 — Session Audit Sequences and Missing-Event Evidence**
+- [English notes](labs/18-session-audit-sequences-and-missing-event-evidence/notes.md) · [Türkçe notlar](labs/18-session-audit-sequences-and-missing-event-evidence/notes.tr.md) · [Offline Python practice](labs/18-session-audit-sequences-and-missing-event-evidence/lab.py)

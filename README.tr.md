@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Cloud Security alanını temelden öğrenmek için hazırlanmış **17 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
+Cloud Security alanını temelden öğrenmek için hazırlanmış **18 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
 
 ## Dersler
 
@@ -25,6 +25,7 @@ Cloud Security alanını temelden öğrenmek için hazırlanmış **17 günlük 
 | 15 | Confused Deputy, External ID ve Tenant İzolasyonu | [Türkçe](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.tr.md) · [English](labs/15-confused-deputy-external-id-and-tenant-isolation/notes.md) | [lab.py](labs/15-confused-deputy-external-id-and-tenant-isolation/lab.py) |
 | 16 | Geçici Oturumlar, Süre ve Yetki Kapsamı | [Türkçe](labs/16-temporary-sessions-expiry-and-scoped-actions/notes.tr.md) · [English](labs/16-temporary-sessions-expiry-and-scoped-actions/notes.md) | [lab.py](labs/16-temporary-sessions-expiry-and-scoped-actions/lab.py) |
 | 17 | Oturum İptali ve Politika Sürümü | [Türkçe](labs/17-session-revocation-and-policy-versioning/notes.tr.md) · [English](labs/17-session-revocation-and-policy-versioning/notes.md) | [lab.py](labs/17-session-revocation-and-policy-versioning/lab.py) |
+| 18 | Oturum Denetim Logları ve Eksik Olay Kanıtları | [Türkçe](labs/18-session-audit-sequences-and-missing-event-evidence/notes.tr.md) · [English](labs/18-session-audit-sequences-and-missing-event-evidence/notes.md) | [lab.py](labs/18-session-audit-sequences-and-missing-event-evidence/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -51,7 +52,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (toplam 17 gün, aynı düzen)
+    └── ... (toplam 18 gün, aynı düzen)
 ```
 
 ## Güvenlik ve etik
@@ -60,10 +61,10 @@ Bu eğitim yalnızca zararsız yerel simülasyonlar içerir. Gerçek AWS, Azure 
 
 ## Devam yolu
 
-Bu 17 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
+Bu 18 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
 
 
 ## En yeni lab
 
-- **Gün 17 — Oturum İptali ve Politika Sürümü**
-- [Türkçe notlar](labs/17-session-revocation-and-policy-versioning/notes.tr.md) · [English notes](labs/17-session-revocation-and-policy-versioning/notes.md) · [Python uygulaması](labs/17-session-revocation-and-policy-versioning/lab.py)
+- **Gün 18 — Oturum Denetim Logları ve Eksik Olay Kanıtları**
+- [Türkçe notlar](labs/18-session-audit-sequences-and-missing-event-evidence/notes.tr.md) · [English notes](labs/18-session-audit-sequences-and-missing-event-evidence/notes.md) · [Python uygulaması](labs/18-session-audit-sequences-and-missing-event-evidence/lab.py)
