@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Cloud Security alanını temelden öğrenmek için hazırlanmış **19 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
+Cloud Security alanını temelden öğrenmek için hazırlanmış **20 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
 
 ## Dersler
 
@@ -27,6 +27,7 @@ Cloud Security alanını temelden öğrenmek için hazırlanmış **19 günlük 
 | 17 | Oturum İptali ve Politika Sürümü | [Türkçe](labs/17-session-revocation-and-policy-versioning/notes.tr.md) · [English](labs/17-session-revocation-and-policy-versioning/notes.md) | [lab.py](labs/17-session-revocation-and-policy-versioning/lab.py) |
 | 18 | Oturum Denetim Logları ve Eksik Olay Kanıtları | [Türkçe](labs/18-session-audit-sequences-and-missing-event-evidence/notes.tr.md) · [English](labs/18-session-audit-sequences-and-missing-event-evidence/notes.md) | [lab.py](labs/18-session-audit-sequences-and-missing-event-evidence/lab.py) |
 | 19 | Audit Hash Zincirleri ve Bütünlük Sınırları | [Türkçe](labs/19-audit-hash-chains-and-integrity-limits/notes.tr.md) · [English](labs/19-audit-hash-chains-and-integrity-limits/notes.md) | [lab.py](labs/19-audit-hash-chains-and-integrity-limits/lab.py) |
+| 20 | Harici Checkpoint ve Eksik Log Tespiti | [Türkçe](labs/20-external-audit-checkpoints-and-truncation-detection/notes.tr.md) · [English](labs/20-external-audit-checkpoints-and-truncation-detection/notes.md) | [lab.py](labs/20-external-audit-checkpoints-and-truncation-detection/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -53,7 +54,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (toplam 19 gün, aynı düzen)
+    └── ... (toplam 20 gün, aynı düzen)
 ```
 
 ## Güvenlik ve etik
@@ -62,10 +63,10 @@ Bu eğitim yalnızca zararsız yerel simülasyonlar içerir. Gerçek AWS, Azure 
 
 ## Devam yolu
 
-Bu 19 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
+Bu 20 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
 
 
 ## En yeni lab
 
-- **Gün 19 — Audit Hash Zincirleri ve Bütünlük Sınırları**
-- [Türkçe notlar](labs/19-audit-hash-chains-and-integrity-limits/notes.tr.md) · [English notes](labs/19-audit-hash-chains-and-integrity-limits/notes.md) · [Python uygulaması](labs/19-audit-hash-chains-and-integrity-limits/lab.py)
+- **Gün 20 — Harici Audit Checkpoint ve Eksik Log Tespiti**
+- [Türkçe notlar](labs/20-external-audit-checkpoints-and-truncation-detection/notes.tr.md) · [English notes](labs/20-external-audit-checkpoints-and-truncation-detection/notes.md) · [Python uygulaması](labs/20-external-audit-checkpoints-and-truncation-detection/lab.py)
