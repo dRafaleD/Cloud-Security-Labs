@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **20-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
+A **21-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
 
 ## Labs
 
@@ -28,12 +28,13 @@ A **20-day bilingual learning path** from cloud fundamentals to IAM, storage, ne
 | 18 | Session Audit Sequences and Missing-Event Evidence | [English](labs/18-session-audit-sequences-and-missing-event-evidence/notes.md) · [Türkçe](labs/18-session-audit-sequences-and-missing-event-evidence/notes.tr.md) | [lab.py](labs/18-session-audit-sequences-and-missing-event-evidence/lab.py) |
 | 19 | Audit Hash Chains and Integrity Limits | [English](labs/19-audit-hash-chains-and-integrity-limits/notes.md) · [Türkçe](labs/19-audit-hash-chains-and-integrity-limits/notes.tr.md) | [lab.py](labs/19-audit-hash-chains-and-integrity-limits/lab.py) |
 | 20 | External Audit Checkpoints and Truncation Detection | [English](labs/20-external-audit-checkpoints-and-truncation-detection/notes.md) · [Türkçe](labs/20-external-audit-checkpoints-and-truncation-detection/notes.tr.md) | [lab.py](labs/20-external-audit-checkpoints-and-truncation-detection/lab.py) |
+| 21 | Audit Checkpoint Forks and Equivocation | [English](labs/21-audit-checkpoint-forks-and-equivocation/notes.md) · [Türkçe](labs/21-audit-checkpoint-forks-and-equivocation/notes.tr.md) | [lab.py](labs/21-audit-checkpoint-forks-and-equivocation/lab.py) |
 
 ## How to study
 
 1. Read one day's notes, then compare the terminology in the other language.
 2. Predict the script's behavior before execution.
-3. Run `python lab.py` and inspect assertions. To check all 20 labs from the repository root, run `python test_all.py`.
+3. Run `python lab.py` and inspect assertions. To check all 21 labs from the repository root, run `python test_all.py`.
 4. Add a negative case and document limitations.
 5. Compare assumptions with official provider documentation.
 
@@ -54,7 +55,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (20 days total, same layout)
+    └── ... (21 days total, same layout)
 ```
 
 ## Safety
@@ -68,5 +69,5 @@ After these 15 foundational labs, continue with provider-specific AWS/Azure/GCP 
 
 ## Latest lab
 
-- **Day 20 — External Audit Checkpoints and Truncation Detection**
-- [English notes](labs/20-external-audit-checkpoints-and-truncation-detection/notes.md) · [Türkçe notlar](labs/20-external-audit-checkpoints-and-truncation-detection/notes.tr.md) · [Offline Python practice](labs/20-external-audit-checkpoints-and-truncation-detection/lab.py)
+- **Day 21 — Audit Checkpoint Forks and Equivocation**
+- [English notes](labs/21-audit-checkpoint-forks-and-equivocation/notes.md) · [Türkçe notlar](labs/21-audit-checkpoint-forks-and-equivocation/notes.tr.md) · [Offline Python practice](labs/21-audit-checkpoint-forks-and-equivocation/lab.py)
