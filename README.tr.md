@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Cloud Security alanını temelden öğrenmek için hazırlanmış **21 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
+Cloud Security alanını temelden öğrenmek için hazırlanmış **22 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
 
 ## Dersler
 
@@ -29,6 +29,7 @@ Cloud Security alanını temelden öğrenmek için hazırlanmış **21 günlük 
 | 19 | Audit Hash Zincirleri ve Bütünlük Sınırları | [Türkçe](labs/19-audit-hash-chains-and-integrity-limits/notes.tr.md) · [English](labs/19-audit-hash-chains-and-integrity-limits/notes.md) | [lab.py](labs/19-audit-hash-chains-and-integrity-limits/lab.py) |
 | 20 | Harici Checkpoint ve Eksik Log Tespiti | [Türkçe](labs/20-external-audit-checkpoints-and-truncation-detection/notes.tr.md) · [English](labs/20-external-audit-checkpoints-and-truncation-detection/notes.md) | [lab.py](labs/20-external-audit-checkpoints-and-truncation-detection/lab.py) |
 | 21 | Audit Checkpoint Çatallanması | [Türkçe](labs/21-audit-checkpoint-forks-and-equivocation/notes.tr.md) · [English](labs/21-audit-checkpoint-forks-and-equivocation/notes.md) | [lab.py](labs/21-audit-checkpoint-forks-and-equivocation/lab.py) |
+| 22 | Tanıklı Checkpoint ve Çelişkili Görünümler | [Türkçe](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.tr.md) · [English](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.md) | [lab.py](labs/22-witnessed-audit-checkpoints-and-conflicting-views/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -55,7 +56,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (toplam 21 gün, aynı düzen)
+    └── ... (toplam 22 gün, aynı düzen)
 ```
 
 ## Güvenlik ve etik
@@ -64,10 +65,10 @@ Bu eğitim yalnızca zararsız yerel simülasyonlar içerir. Gerçek AWS, Azure 
 
 ## Devam yolu
 
-Bu 21 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
+Bu 22 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
 
 
 ## En yeni lab
 
-- **Gün 21 — Audit Checkpoint Çatallanması ve Farklı Geçmiş Sunma**
-- [Türkçe notlar](labs/21-audit-checkpoint-forks-and-equivocation/notes.tr.md) · [English notes](labs/21-audit-checkpoint-forks-and-equivocation/notes.md) · [Python uygulaması](labs/21-audit-checkpoint-forks-and-equivocation/lab.py)
+- **Gün 22 — Tanıklı Audit Checkpoint ve Çelişkili Görünümler**
+- [Türkçe notlar](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.tr.md) · [English notes](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.md) · [Python uygulaması](labs/22-witnessed-audit-checkpoints-and-conflicting-views/lab.py)
