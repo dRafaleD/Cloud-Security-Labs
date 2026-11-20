@@ -5,8 +5,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parent
 labs = sorted((ROOT / "labs").glob("*/lab.py"))
-if len(labs) != 22:
-    raise SystemExit(f"Expected 22 lab.py scripts, found {len(labs)}")
+if len(labs) != 23:
+    raise SystemExit(f"Expected 23 lab.py scripts, found {len(labs)}")
 failed = []
 for lab in labs:
     try:
@@ -22,4 +22,4 @@ for path, err in failed:
     print(path + ": " + err, file=sys.stderr)
 if failed:
     raise SystemExit(1)
-print("22/22 offline smoke checks passed.")
+print("23/23 offline smoke checks passed.")

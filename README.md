@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **22-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
+A **23-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
 
 ## Labs
 
@@ -30,12 +30,13 @@ A **22-day bilingual learning path** from cloud fundamentals to IAM, storage, ne
 | 20 | External Audit Checkpoints and Truncation Detection | [English](labs/20-external-audit-checkpoints-and-truncation-detection/notes.md) · [Türkçe](labs/20-external-audit-checkpoints-and-truncation-detection/notes.tr.md) | [lab.py](labs/20-external-audit-checkpoints-and-truncation-detection/lab.py) |
 | 21 | Audit Checkpoint Forks and Equivocation | [English](labs/21-audit-checkpoint-forks-and-equivocation/notes.md) · [Türkçe](labs/21-audit-checkpoint-forks-and-equivocation/notes.tr.md) | [lab.py](labs/21-audit-checkpoint-forks-and-equivocation/lab.py) |
 | 22 | Witnessed Audit Checkpoints and Conflicting Views | [English](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.md) · [Türkçe](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.tr.md) | [lab.py](labs/22-witnessed-audit-checkpoints-and-conflicting-views/lab.py) |
+| 23 | Witness Membership Epochs and Checkpoint Quorum | [English](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.md) · [Türkçe](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.tr.md) | [lab.py](labs/23-witness-membership-epochs-and-checkpoint-quorum/lab.py) |
 
 ## How to study
 
 1. Read one day's notes, then compare the terminology in the other language.
 2. Predict the script's behavior before execution.
-3. Run `python lab.py` and inspect assertions. To check all 22 labs from the repository root, run `python test_all.py`.
+3. Run `python lab.py` and inspect assertions. To check all 23 labs from the repository root, run `python test_all.py`.
 4. Add a negative case and document limitations.
 5. Compare assumptions with official provider documentation.
 
@@ -56,7 +57,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (22 days total, same layout)
+    └── ... (23 days total, same layout)
 ```
 
 ## Safety
@@ -70,5 +71,5 @@ After these 15 foundational labs, continue with provider-specific AWS/Azure/GCP 
 
 ## Latest lab
 
-- **Day 22 — Witnessed Audit Checkpoints and Conflicting Views**
-- [English notes](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.md) · [Türkçe notlar](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.tr.md) · [Offline Python](labs/22-witnessed-audit-checkpoints-and-conflicting-views/lab.py)
+- **Day 23 — Witness Membership Epochs and Checkpoint Quorum**
+- [English notes](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.md) · [Türkçe notlar](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.tr.md) · [Python exercise](labs/23-witness-membership-epochs-and-checkpoint-quorum/lab.py)
