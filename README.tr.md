@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Cloud Security alanını temelden öğrenmek için hazırlanmış **23 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
+Cloud Security alanını temelden öğrenmek için hazırlanmış **24 günlük iki dilli eğitim programı**. IAM, depolama, ağ, denetim logları, sır yönetimi ve olay müdahalesini ele alır.
 
 ## Dersler
 
@@ -31,6 +31,7 @@ Cloud Security alanını temelden öğrenmek için hazırlanmış **23 günlük 
 | 21 | Audit Checkpoint Çatallanması | [Türkçe](labs/21-audit-checkpoint-forks-and-equivocation/notes.tr.md) · [English](labs/21-audit-checkpoint-forks-and-equivocation/notes.md) | [lab.py](labs/21-audit-checkpoint-forks-and-equivocation/lab.py) |
 | 22 | Tanıklı Checkpoint ve Çelişkili Görünümler | [Türkçe](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.tr.md) · [English](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.md) | [lab.py](labs/22-witnessed-audit-checkpoints-and-conflicting-views/lab.py) |
 | 23 | Tanık Üyeliği, Epoch ve Checkpoint Quorum | [Türkçe](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.tr.md) · [English](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.md) | [lab.py](labs/23-witness-membership-epochs-and-checkpoint-quorum/lab.py) |
+| 24 | Tanık Üyeliği Değişikliği ve Rollback Koruması | [Türkçe](labs/24-witness-membership-transitions-and-rollback-guards/notes.tr.md) · [English](labs/24-witness-membership-transitions-and-rollback-guards/notes.md) | [lab.py](labs/24-witness-membership-transitions-and-rollback-guards/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -57,7 +58,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (toplam 23 gün, aynı düzen)
+    └── ... (toplam 24 gün, aynı düzen)
 ```
 
 ## Güvenlik ve etik
@@ -66,10 +67,10 @@ Bu eğitim yalnızca zararsız yerel simülasyonlar içerir. Gerçek AWS, Azure 
 
 ## Devam yolu
 
-Bu 23 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
+Bu 24 günlük temel seri tamamlandıktan sonra sağlayıcıya özel (AWS/Azure/GCP), kontrollü sandbox ve ileri seviyede policy-as-code çalışmalarına geçilebilir.
 
 
 ## En yeni lab
 
-- **Gün 23 — Audit Tanık Üyeliği ve Policy Epoch**
-- [Türkçe notlar](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.tr.md) · [English notes](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.md) · [Python uygulaması](labs/23-witness-membership-epochs-and-checkpoint-quorum/lab.py)
+- **Gün 24 — Audit Tanık Üyeliği Değişikliği ve Rollback Koruması**
+- [Türkçe notlar](labs/24-witness-membership-transitions-and-rollback-guards/notes.tr.md) · [English notes](labs/24-witness-membership-transitions-and-rollback-guards/notes.md) · [Python uygulaması](labs/24-witness-membership-transitions-and-rollback-guards/lab.py)

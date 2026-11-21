@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **23-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
+A **24-day bilingual learning path** from cloud fundamentals to IAM, storage, network boundaries, audit logging, secret handling and incident response.
 
 ## Labs
 
@@ -31,12 +31,13 @@ A **23-day bilingual learning path** from cloud fundamentals to IAM, storage, ne
 | 21 | Audit Checkpoint Forks and Equivocation | [English](labs/21-audit-checkpoint-forks-and-equivocation/notes.md) · [Türkçe](labs/21-audit-checkpoint-forks-and-equivocation/notes.tr.md) | [lab.py](labs/21-audit-checkpoint-forks-and-equivocation/lab.py) |
 | 22 | Witnessed Audit Checkpoints and Conflicting Views | [English](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.md) · [Türkçe](labs/22-witnessed-audit-checkpoints-and-conflicting-views/notes.tr.md) | [lab.py](labs/22-witnessed-audit-checkpoints-and-conflicting-views/lab.py) |
 | 23 | Witness Membership Epochs and Checkpoint Quorum | [English](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.md) · [Türkçe](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.tr.md) | [lab.py](labs/23-witness-membership-epochs-and-checkpoint-quorum/lab.py) |
+| 24 | Witness Membership Transitions and Rollback Guards | [English](labs/24-witness-membership-transitions-and-rollback-guards/notes.md) · [Türkçe](labs/24-witness-membership-transitions-and-rollback-guards/notes.tr.md) | [lab.py](labs/24-witness-membership-transitions-and-rollback-guards/lab.py) |
 
 ## How to study
 
 1. Read one day's notes, then compare the terminology in the other language.
 2. Predict the script's behavior before execution.
-3. Run `python lab.py` and inspect assertions. To check all 23 labs from the repository root, run `python test_all.py`.
+3. Run `python lab.py` and inspect assertions. To check all 24 labs from the repository root, run `python test_all.py`.
 4. Add a negative case and document limitations.
 5. Compare assumptions with official provider documentation.
 
@@ -57,7 +58,7 @@ Cloud-Security-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (23 days total, same layout)
+    └── ... (24 days total, same layout)
 ```
 
 ## Safety
@@ -71,5 +72,5 @@ After these 15 foundational labs, continue with provider-specific AWS/Azure/GCP 
 
 ## Latest lab
 
-- **Day 23 — Witness Membership Epochs and Checkpoint Quorum**
-- [English notes](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.md) · [Türkçe notlar](labs/23-witness-membership-epochs-and-checkpoint-quorum/notes.tr.md) · [Python exercise](labs/23-witness-membership-epochs-and-checkpoint-quorum/lab.py)
+- **Day 24 — Witness Membership Transitions and Rollback Guards**
+- [English notes](labs/24-witness-membership-transitions-and-rollback-guards/notes.md) · [Türkçe notlar](labs/24-witness-membership-transitions-and-rollback-guards/notes.tr.md) · [Python exercise](labs/24-witness-membership-transitions-and-rollback-guards/lab.py)
